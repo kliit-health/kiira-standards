@@ -8,6 +8,8 @@ theme:
     accent: "blue grey"
   
 nav:
+  - General:
+    - Contributing: general-contributing.md
   - Process:
     - Branching: process-branching.md
     - CI/CD: process-cicd.md
