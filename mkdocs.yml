@@ -1,0 +1,19 @@
+site_name: Kiira Engineering Standards
+docs_dir: src
+theme:
+  name: material
+  palette: 
+    scheme: default
+    primary: "blue"
+    accent: "blue grey"
+  
+nav:
+  - Process:
+    - Branching: process-branching.md
+    - CI/CD: process-cicd.md
+    - Unit Testing: process-unit-testing.md
+    - Integration Testing: process-integration-testing.md
+  - Infrastructure:
+    - Microservices: infra-microservices.md
+    - Serverless: infra-serverless.md
+    - GCP and Firebase: infra-gcp.md
