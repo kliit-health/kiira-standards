@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "kiira-health-dev"
+  },
+  "targets": {
+    "kiira-health-dev": {
+      "hosting": {
+        "kiira-eng-standards-dev": [
+          "kiira-eng-standards-dev"
+        ]
+      }
+    }
   }
 }
