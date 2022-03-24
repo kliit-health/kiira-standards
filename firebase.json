@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "kiira-eng-standards-dev",
     "public": "site",
     "ignore": [
       "firebase.json",
