@@ -1,4 +1,7 @@
 site_name: Kiira Engineering Standards
+repo_url: https://github.com/kliit-health/kiira-standards
+repo_name: kliit-health/kiira-standards
+edit_uri: edit/main/src/
 docs_dir: src
 theme:
   name: material
@@ -9,13 +12,37 @@ theme:
   
 nav:
   - General:
-    - Contributing: general-contributing.md
+    - Mobile Applications: general-mobile.md
+    - REST API Design: general-rest-api.md
+    - Microservices: general-microservices.md
+    - Languages: general-languages.md
+    - Globalization & Localization: general-localization.md
+    - SaaS Applications: general-saas.md
+    - Database Design: general-database.md
   - Process:
+    - Environments: process-environments.md
+    - Source Code: process-source-code.md
     - Branching: process-branching.md
     - CI/CD: process-cicd.md
+    - Code Reviews: process-code-reviews.md
     - Unit Testing: process-unit-testing.md
     - Integration Testing: process-integration-testing.md
+    - References:
+      - Git: process-references-git.md
+      - Code Review: process-references-code-review.md
+      - Testing: process-references-testing.md
   - Infrastructure:
-    - Microservices: infra-microservices.md
-    - Serverless: infra-serverless.md
     - GCP and Firebase: infra-gcp.md
+    - Serverless: infra-serverless.md
+    - Messaging: infra-messaging.md
+  - Security:
+    - Credentials: security-credentials.md
+    - HIPAA: security-hipaa.md
+    - SOC: security-soc.md
+  - Standards Process:
+    - Contributing: standards-contributing.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition

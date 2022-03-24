@@ -14,7 +14,7 @@ The Kiira Health Engineering standards are owned and maintained by the __enginee
 Here is how to use this document/site:
 
 - All engineers working at Kiira Health should be aware of these standards and do their best to follow them.
-- There is a Slack channel for comments, questions, and issues regarding the standards themselves, and this document. The Slack channel should be the first place to raise these concerns.
+- There is a Slack [#engineering-standards](slack://channel?team=TSAPM59FH&id=C038WNB8VJM)  channel for comments, questions, and issues regarding the standards themselves, and this document. The Slack channel should be the first place to raise these concerns.
 - The most up-to-date version of these standards will be published to GitHub Pages at https://kiira-health.github.io/kiira-standards.
 
 ## Compliance
